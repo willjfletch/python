@@ -46,7 +46,6 @@ def greet(name):
 # Timing decorator
 def timer(func):
     """A decorator that measures execution time"""
-    print(f"Defining timer for {func.__name__}")
     @functools.wraps(func)
     def wrapper(*args, **kwargs):
         start = time.time()
