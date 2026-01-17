@@ -1,5 +1,5 @@
 from animal import Dog
-from animal.cat import Cat
+from animal import Cat
 
 
 if __name__ == '__main__':
