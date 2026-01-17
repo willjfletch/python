@@ -65,7 +65,7 @@ def slow_function():
 
 def example_wrapper(func):
     # Python is an interpreted language, this print statement will execute when the decorator is read
-    print("Farnham")
+    print("Example wrapper decorator is being applied")
     return func
 
 @example_wrapper
